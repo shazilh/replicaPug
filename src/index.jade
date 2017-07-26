@@ -1,6 +1,44 @@
+doctype html
 html(lang="es")
-head
-meta(charset="UTF-8")
-meta(name="viewport", content="width=device-width, initial-scale=1.0")
-link(rel="stylesheet", type="text/css", href="static/assets/css/style.css")
-link(rel="stylesheet", type="text/css" ,href="static/materialize-css/dist/css/materialize.min.css")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", type="text/css", href="../src/assets/css/main.css")
+        link(rel="stylesheet", type="text/css" ,href="../node_modules/materialize-css/dist/css/materialize.min.css")
+        link(href="https://fonts.googleapis.com/css?family=Maven+Pro", rel="stylesheet")
+        title Replica con Pug
+    body
+         nav.nav-wrapper.white-color-back
+            a(href="#").brand-logo.center
+            img.tamano-logo.responsive-img(src="../src/assets/img/logoLetraNegra.png")
+            ul#nav-mobile.right.hide-on-med-and-down
+                li
+                    a.black-text(href="#") About
+                li
+                    a.black-text.mg-right(href="#") Features
+         div.container-fluid.primera-seccion
+            div.containerfluid.primera-seccion-transp
+                .row
+                    mixin templateParrafo(encabezado, parrafo)
+                        .col.s7
+                            h3.estilo-encabezado.white-text #{encabezado}
+                        .col.s6
+                            p.white-text.estilo-parrafo #{parrafo}
+                    +templateParrafo("Mobile Strategy App","Backyard is a modern and customizable landing page template designed to increase convertion of your product. Backyard is flexible to suit any kind of your business. Try now and join with our happy customers")
+                .row
+                    input#boton(type = "button", value="Features")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

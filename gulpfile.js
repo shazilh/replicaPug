@@ -1,5 +1,13 @@
 var gulp = require('gulp');
 var jade = require('gulp-jade');
+var sass = require('gulp-sass');
+
+var rutas = {
+    //rutaJS: './src/assets/js/miGranJs.js',
+    rutaSCSS: './src/assets/scss/main.scss',
+    //rutaHTML: 'src/*.html'
+};
+
 
 gulp.task('jade', function(){
     gulp.src('./src/*.jade')//aqui esta nuestro archivo
@@ -14,3 +22,18 @@ gulp.task('watch', function(){
 });
 
 gulp.task('default', ['jade', 'watch'])
+
+/*
+gulp.task('watchChangesCSS', function () {
+    gulp.watch(rutas.rutaSCSS, ['sass-watch'])
+});
+
+gulp.task('prepararCSS', function () {
+    gulp.src(rutas.rutaSCSS)
+        .pipe(sass({
+                outputStyle: 'compressed',
+                precision: 3
+            })
+            .on('error', sass.logError))
+        .pipe(gulp.dest('./dist/css'));
+});*/
