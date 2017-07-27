@@ -33,3 +33,40 @@
 	font-size: 20px;
 	margin-left: 50px;
 }
+.btn{
+	margin-left: 60px;
+	background-color:#0590FB!important;
+	border-bottom-left-radius: 1em!important;
+	border-top-left-radius: 1em!important;
+	border-bottom-right-radius: 1em!important;
+	border-top-right-radius: 1em!important;
+}
+.btn-claro{
+	background-color:transparent!important;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #0590FB!important;
+	border-bottom-left-radius: 1em!important;
+	border-top-left-radius: 1em!important;
+	border-bottom-right-radius: 1em!important;
+	border-top-right-radius: 1em!important;
+	color:#0590FB!important;
+}
+span{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	margin-left: 60px;
+}
+.img-apple{
+	margin-left: 70px;
+}
+.segunda-seccion{
+	width: 100%;
+	height: 700px;
+}
+.img-phone{
+	width: 600px;
+	height: 400px;
+	margin-left: 60px;
+	margin-top: 150px;
+}
