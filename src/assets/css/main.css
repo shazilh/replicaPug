@@ -70,3 +70,94 @@ span{
 	margin-left: 60px;
 	margin-top: 150px;
 }
+.segunda-seccion row templateParrafo{
+	color:black;
+}
+.tercera-seccion{
+	width: 100%;
+	height: 700px;
+	background-color: #e9ebee;
+}
+.encabezado-tercera-seccion{
+	color:grey;
+	font-family: 'Maven Pro', sans-serif;
+	margin-top: 100px;
+}
+.parrafo-largo{
+	color:grey;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.img-phone2{
+	width: 500px;
+	height: 300px;
+	margin-left: 60px;
+}
+.encabezado-h5{
+	color:grey;
+	font-family: 'Maven Pro', sans-serif;
+	margin-left: 100px;
+}
+.parrafo-sec4{
+	color:grey;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	margin-top: 25px;
+}
+.circle{
+	border:solid;
+	border-color:#0590FB;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border-width: 2px;
+	margin-left: 600px;
+}
+.circle2{
+	border:solid;
+	border-color:#0590FB;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border-width: 2px;
+	margin-left: 605px;
+}
+.circle3{
+	border:solid;
+	border-color:#0590FB;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border-width: 2px;
+	margin-left: 610px;
+}
+.circle4{
+	border:solid;
+	border-color:#0590FB;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border-width: 2px;
+	margin-left: 615px;
+}
+.img-icon{
+	position: absolute;
+	justify-content: center;
+	margin-left: 7px;
+	margin-top: 7px;
+}
+.shazil{
+	color:#0590FB;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	margin-left:5px!important;
+}
